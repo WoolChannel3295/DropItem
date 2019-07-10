@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/WoolChannel3295/DropItem
+branches:
+- master
+projects:
+  DropItem:
+    path: ""
+...
