@@ -1,0 +1,24 @@
+name: Drop Item
+main: WoolChannel3295\DropItem
+version: 1.0.0
+description: "Falling Items In Server By Command"
+api: [3.0.0, 3.0.1, 3.0.2, 3.1.0, 4.0.0]
+author: WoolChannel3295
+
+commands:
+  drop:
+    description: "Falling Items In Server By Command" 
+    permission: drop.command
+permission:
+  drop:
+      default: op
+      children:
+        drop.start:
+          default: op
+        drop.end:
+          default: op
+        drop.set:
+          default: op
+        drop.commnad:
+          default: true
+...
